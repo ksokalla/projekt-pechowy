@@ -1,0 +1,47 @@
+@media all and (max-width: 1200px) {
+	
+.team-image img {
+	
+	width: 60%;
+	height: 60%;
+
+}
+}
+
+@media all and (max-width: 768px) {
+	
+	#main-nav {
+		background-color: #fff;
+		border: 0px;
+		
+	
+	}
+.team-image img {
+	
+	width: 50%;
+	height: 50%;
+
+}
+}
+
+
+
+@media all and (max-width: 680px) {
+	
+
+}
+
+
+
+@media all and (max-width: 480px) {
+	
+	h1 {
+		font-size: 2em;
+	}
+	
+	h2 {
+		font-size: 1em;
+	}
+	
+	
+}
