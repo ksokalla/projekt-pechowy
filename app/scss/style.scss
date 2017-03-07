@@ -1,0 +1,454 @@
+/*-----------general styles start------------*/
+
+body {
+	font-family: 'Droid Serif', sans-serif;
+	color: #777777;
+}
+
+#main-nav,
+h1,
+h3,
+h5,
+button {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+
+
+/*------------ general styles end -------------*/
+
+/*------------ navbar styles start ------------*/
+
+#main-nav {
+	background-color: transparent;
+	border: none;
+	text-transform: uppercase;
+	
+} 
+
+.navbar-nav {
+	text-align: right;
+}
+
+#main-nav ul.navbar-nav a {
+		color: #777777;
+		text-decoration: none;
+	}
+
+#brand {
+	font-family: 'Droid Serif', sans-serif;
+	text-transform: none;
+	font-weight: 400;
+}
+
+#brand.scroll {
+	font-family: 'Droid Serif', sans-serif;
+	text-transform: none;
+	font-weight: 400;
+	color:#fff;
+}
+
+
+#main-nav.scroll {
+	background-color: rgba(14, 216, 214, 0.55);
+	position: fixed;	
+}
+
+#main-nav.scroll ul.navbar-nav a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+#main-nav ul.navbar-nav a:hover {
+	color: #0ed8d6;
+}
+
+#main-nav.scroll ul.navbar-nav a:hover {
+	color: black;
+}
+
+
+
+
+
+/*------------ navbar styles end --------------*/
+
+/*------------ header styles start ------------*/
+#header-container {
+	background-image: linear-gradient(
+					  rgba(0, 0, 0, 0.7), 
+					  rgba(0, 0, 0, 0.7)
+	            ),
+		url(../img/header/pictures_on_the_wall.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 100vh;
+	position: relative;
+	
+}
+
+#header-content {
+	
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	transform: translateY(-50%);
+	color: #fff;
+}
+
+h1 {
+	font-size: 4em;	
+}
+
+#header-container a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: 'Montserrat';
+	
+}
+
+
+/*------------ header styles end ------------*/
+
+/*------------ services styles start --------*/
+
+
+h3 {
+	text-align: center;
+	color: #000;
+}
+
+h5 {
+	text-transform: capitalize;
+	color: #000;
+}
+
+#services-section p, h5 {
+	text-align: center;
+	
+}
+
+#serv-sec {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.kontener-ikonkowy {
+	text-align: center;
+}
+
+.ikonki {
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #0ed8d6;
+	background-color: #0ed8d6;
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	font-size: 3em;
+	transition: background 0.1s ease-in; 
+	border-radius: 50%;
+	margin-bottom: 10px;
+	transition: all 0.5s;
+}
+ 
+.ikonki:hover {
+	color: #0ed8d6;
+	background-color: #fff;
+	transform: rotate(360deg);
+	
+}
+
+
+/*------------- services styles end ---------*/
+
+/*------------- portfolio styles start ---------*/
+
+#portfolio {
+	background-color: #f7f7f7;
+	padding-bottom: 100px;
+}
+
+#portfolio h5 {
+	padding-top: 15px;
+}
+
+#portfolio-header,
+#team-header,
+#contact-header {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+#portfoliodiv {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.portfolio-image {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	height: 350px;
+	width: auto;
+	
+}
+
+.portfolio-text {
+	background-color: #fff;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}
+
+.portfolio-image-container {
+	overflow: hidden;
+	
+}
+
+#portfolio1 {
+	background-image: url(../img/portfolio/box_of_cookies.jpg);
+	
+}
+
+#portfolio1:hover,
+#portfolio2:hover,
+#portfolio3:hover,
+#portfolio4:hover,
+#portfolio5:hover,
+#portfolio6:hover  {
+	transform: scale(1.5);
+	transition: all 0.3s linear;
+}
+
+#portfolio1:hover {
+	background-image: linear-gradient(
+					  rgba(14, 216, 214, 0.55), 
+					  rgba(14, 216, 214, 0.55)
+	            ), url(../img/portfolio/box_of_cookies.jpg);
+}
+
+#portfolio2:hover {
+	background-image: linear-gradient(
+					  rgba(14, 216, 214, 0.55), 
+					  rgba(14, 216, 214, 0.55)
+	            ), url(../img/portfolio/chaotic_paint.jpg);
+}
+
+#portfolio3:hover {
+	background-image: linear-gradient(
+					  rgba(14, 216, 214, 0.55), 
+					  rgba(14, 216, 214, 0.55)
+	            ), url(../img/portfolio/chestnut_on_bracket.jpg);;
+}
+
+#portfolio4:hover {
+	background-image: linear-gradient(
+					  rgba(14, 216, 214, 0.55), 
+					  rgba(14, 216, 214, 0.55)
+	            ), url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+#portfolio5:hover {
+	background-image: linear-gradient(
+					  rgba(14, 216, 214, 0.55), 
+					  rgba(14, 216, 214, 0.55)
+	            ), url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+#portfolio6:hover {
+	background-image: linear-gradient(
+					  rgba(14, 216, 214, 0.55), 
+					  rgba(14, 216, 214, 0.55)
+	            ), url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+#portfolio2 {
+	background-image: url(../img/portfolio/chaotic_paint.jpg);
+	
+}
+
+#portfolio3 {
+	background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+	
+}
+
+#portfolio4 {
+	background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+	
+}
+
+#portfolio5 {
+	background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+
+}
+
+#portfolio6 {
+	background-image: url(../img/portfolio/typing_on_laptop.jpg);
+	
+	
+}
+
+.plusik {
+	position: relative;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	transform: translateY(-50%);
+	
+}
+
+.plusik a {
+	color: transparent;
+	padding: 150px;
+	color: transparent;
+}
+
+.plusik a:hover {
+	color: rgba(255, 255, 255, 0.70);
+}
+
+
+
+
+/*------------- portfolio styles end ---------*/
+
+
+/*------------- team styles start ---------*/
+
+
+.team-text {
+	text-align: center;
+}
+
+.team-image img {
+	border: 1px solid transparent;
+	border-radius: 50%;
+	width: 70%;
+	height: 70%;
+}
+
+.social-ikonka {
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid transparent;
+	background-color: #222222;
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
+	transition: background 0.1s ease-in; 
+	border-radius: 50%;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.social-ikonka:hover {
+	background-color: #0ed8d6;
+	
+}
+
+#dolny-paragraf {
+	text-align: center;
+	margin-top: 50px;
+	padding-left: 60px;
+	padding-left: 60px;
+}
+
+/*------------- team styles end ---------*/
+
+/*------------- contact styles start-----*/
+
+#contact {
+	background-image: 
+		linear-gradient(
+					  rgba(0, 0, 0, 0.7), 
+					  rgba(0, 0, 0, 0.7)
+	            ),
+		url(../img/footer/world-map.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	color: #fff;
+	padding-top: 70px;
+	overflow: hidden;
+	
+}
+#contact-header h3 {
+	color: #fff;
+	
+}
+
+input {
+	border: 1px solid white;
+	border-radius: 3px;
+	display: block;
+	margin-bottom: 15px;
+	width: 450px;
+	height: 35px;
+	line-height: 50%;
+	
+}
+
+input[placeholder],
+textarea[placeholder] 
+{
+	padding-left: 15px;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 15px;
+}
+
+textarea {
+	border: 1px solid white;
+	border-radius: 3px;
+	display: block;
+	width: 450px;
+	height: 135px;
+	margin-top: 15px;
+	transform: translateY(13px);
+	
+}
+
+textarea[placeholder] {
+	padding-top: 5px;
+}
+
+.kolumny-formularza {
+	display: inline-block;
+	position: relative;
+	margin-left: 15px;
+	bottom: 15px;
+	
+}
+
+#wyslij {
+	width: 150px;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	position: relative;
+	display: block;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+
+/*------------- contact styles end-------*/
