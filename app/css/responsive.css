@@ -16,19 +16,23 @@
 		
 	
 	}
-.team-image img {
-	
-	width: 50%;
-	height: 50%;
+	.team-image img {
 
-}
+		width: 50%;
+		height: 50%;
+
+	}
 }
 
 
 
 @media all and (max-width: 680px) {
 	
-
+	input,
+	textarea {
+		width: 100%;
+	}
+	
 }
 
 
@@ -43,5 +47,9 @@
 		font-size: 1em;
 	}
 	
+	input,
+	textarea {
+		width: 100%;
+	}
 	
 }
