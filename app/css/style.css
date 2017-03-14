@@ -279,12 +279,12 @@ input {
   margin-bottom: 15px;
   width: 450px;
   height: 35px;
-  line-height: 50%; }
+  line-height: 50%;
+  color: #777; }
 
 input[placeholder],
 textarea[placeholder] {
   padding-left: 15px;
-  text-transform: uppercase;
   font-family: 'Montserrat';
   font-size: 15px; }
 
@@ -295,7 +295,8 @@ textarea {
   width: 450px;
   height: 135px;
   margin-top: 15px;
-  transform: translateY(13px); }
+  transform: translateY(13px);
+  color: #777; }
 
 textarea[placeholder] {
   padding-top: 5px; }
@@ -313,6 +314,36 @@ textarea[placeholder] {
   position: relative;
   display: block;
   left: 50%;
-  transform: translate(-50%); }
+  transform: translate(-50%);
+  margin-bottom: 50px;
+  margin-top: 25px; }
 
 /*------------- contact styles end-------*/
+/*------------- footer styles start------*/
+footer {
+  height: 100px;
+  padding-top: 25px;
+  display: inline;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: bold; }
+
+footer a {
+  color: #777777; }
+
+footer a:visited {
+  text-decoration: none; }
+
+#stopka {
+  padding-top: 30px;
+  width: 100%; }
+
+.copy {
+  margin-top: 10px; }
+
+#menu-footer p {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px; }
+
+/*------------- footer styles end------*/
